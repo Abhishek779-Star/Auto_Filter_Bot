@@ -62,13 +62,13 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100')) #Verification Channe
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Howtoverifyanylink")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "b541a11ab53770aa7a6d5369e58cfa3c5b242361")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "seturl.in")
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
