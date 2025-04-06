@@ -267,8 +267,8 @@ Nᴀᴍᴇ - {}
 </b>"""
 
     PREMIUM_TEXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
-<b>
-◉ 07 ᴅᴀʏꜱ - 10 ₹
+
+<b>◉ 07 ᴅᴀʏꜱ - 10 ₹
 ◉ 01 ᴅᴀʏꜱ - 30 ₹
 ◉ 02 ᴍᴏɴᴛʜꜱ - 60 ₹
 ◉ 03 ᴍᴏɴᴛʜꜱ - 90 ₹
@@ -311,7 +311,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/MOVIES_WORLDZS">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/MOVIES_WORLDZS>[@MOVIES_WORLDZS]</a></b>"""
+    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a > @MOVIES_WORLDZS</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
