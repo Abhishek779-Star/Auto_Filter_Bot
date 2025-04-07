@@ -327,7 +327,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a > @MOVIES_WORLDZS ❤️‍🔥</a></b>"""
+    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a > @MOVIES_WORLDZS ❤️‍🔥\n⚜️ 𝙼𝚘𝚟𝚒𝚎𝚜 𝚂𝚎𝚊𝚛𝚌𝚑 𝙶𝚛𝚘𝚞𝚙 ➥ <a > @Movies_World_Request_Group_hdx ❤️‍🔥</a></b>"""</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
