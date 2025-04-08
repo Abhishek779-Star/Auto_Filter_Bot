@@ -1,9 +1,6 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {}, {}\n\n
-Mʏ Nᴀᴍᴇ Is 𝗔𝗩 𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥 𝗕𝗢𝗧, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, web series, serials and many more episodes Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍
-
-😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/MOVIES_WORLDZS">@𝙼𝙾𝚅𝙸𝙴𝚂_𝚆𝙾𝚁𝙻𝙳𝚉𝚂</a></blockquote></b>"""
-    FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/MOVIES_WORLDZS">𝙰.𝚅 𝙼𝙾𝚅𝙸𝙴𝚂 𝚆𝙾𝚁𝙻𝙳</a></blockquote></b>"""
+FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
@@ -327,7 +324,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a > @MOVIES_WORLDZS ❤️‍🔥\n⚜️ 𝙼𝚘𝚟𝚒𝚎𝚜 𝚂𝚎𝚊𝚛𝚌𝚑 𝙶𝚛𝚘𝚞𝚙 ➥ <a > @Movies_World_Request_Group_hdx ❤️‍🔥</a></b>"""</a></b>"""
+    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a > @MOVIES_WORLDZS ❤️‍🔥</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
