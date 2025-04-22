@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/ch3n9wsf/x.jpg')).split() 
+PICS = (environ.get('PICS', 'https://i.ibb.co/ch3n9wsf/x.jpg https://i.ibb.co/h9GBt42/file-6320.jpg https://i.ibb.co/n30XbDd/file-2317.jpg https://i.ibb.co/4fDd5BK/file-2317.jpg https://i.ibb.co/8dTrcPy/file-2319.jpg https://i.ibb.co/F41g7Hh/file-2320.jpg https://i.ibb.co/jh1HK8Q/file-2321.jpg https://i.ibb.co/CJ8XVjM/file-2322.jpg https://i.ibb.co/dcmyNnw/file-2323.jpg https://i.ibb.co/KLyrR0f/file-2324.jpg https://i.ibb.co/52gQ6g4/file-2325.jpg https://i.ibb.co/vZWTsCn/file-2326.jpg https://i.ibb.co/WHHkRgj/file-2327.jpg https://i.ibb.co/YBnjXZb/file-2328.jpg https://i.ibb.co/7YtFPC7/file-2329.jpg https://i.ibb.co/D1r9Dcc/file-2331.jpg https://i.ibb.co/jgF3LBq/file-2332.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -60,7 +60,7 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002302517187'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '1002510169540')) #Verification Channel Id 
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '1002510169540')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/8tqvho.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/dcb8bbfbb1f17c7ae3c29-bc0773c9ddb6b02f5e.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Howtoverifyanylink")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtoverifyanylink")
