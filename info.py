@@ -58,8 +58,8 @@ AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002006400723'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002302517187'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '1002510169540')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '1002510169540')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002510169540')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002510169540')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/dcb8bbfbb1f17c7ae3c29-bc0773c9ddb6b02f5e.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Howtoverifyanylink")
