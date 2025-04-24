@@ -67,14 +67,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtoverifyanylink")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Howtoverifyanylink")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "b541a11ab53770aa7a6d5369e58cfa3c5b242361")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "seturl.in")
+SHORTENER_API = environ.get("SHORTENER_API", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkcents.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "b541a11ab53770aa7a6d5369e58cfa3c5b242361")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "seturl.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkcents.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "b541a11ab53770aa7a6d5369e58cfa3c5b242361")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "seturl.in")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkcents.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "12000"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "540000"))
@@ -140,7 +140,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 
-REACTIONS = ["🧑‍💻", "🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
+REACTIONS = ["⚡️"]
 
 
 Bot_cmds = {
