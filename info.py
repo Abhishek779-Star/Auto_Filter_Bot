@@ -40,7 +40,7 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002302517187') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrnoffice692:PsO4VGHI9heKd7WA@cluster0.o1vcj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #MongoDB Url
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://trumbot:trumbot@cluster0.cfkaeno.mongodb.net/?retryWrites=true&w=majority") #MongoDB Url
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 
@@ -67,14 +67,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtoverifyanylink")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Howtoverifyanylink")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkcents.com")
+SHORTENER_API = environ.get("SHORTENER_API", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkcents.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "4f4dc2eaf84eb9999d2db325ada558ef683c0842")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkcents.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "12000"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "540000"))
