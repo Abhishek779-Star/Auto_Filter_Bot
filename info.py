@@ -135,9 +135,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "http://jealous-tonya-123456789123456789123456789123456789pro-f8f0bafe.koyeb.app/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "http://jealous-tonya-123456789123456789123456789123456789pro-f8f0bafe.koyeb.app/".format(FQDN)
 
 
 REACTIONS = ["⚡️"]
