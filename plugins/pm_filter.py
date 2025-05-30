@@ -331,7 +331,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         BUTTONS[key] = search   
         files, n_offset, total_results = await get_search_results(chat_id, search, offset=offset, filter=True)
         if not files:
-            await query.answer("🚫 ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ 🚫", show_alert=1)
+            await query.answer("✘  ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ✘ ", show_alert=1)
             return
         temp.GETALL[key] = files
         settings = await get_settings(message.chat.id)
@@ -482,7 +482,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         BUTTONS[key] = search
         files, n_offset, total_results = await get_search_results(chat_id, search, offset=offset, filter=True)
         if not files:
-            await query.answer("🚫 ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ 🚫", show_alert=1)
+            await query.answer("✘  ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ✘ ", show_alert=1)
             return
         temp.GETALL[key] = files
         settings = await get_settings(message.chat.id)
@@ -498,7 +498,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -511,7 +511,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -632,7 +632,7 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
         BUTTONS[key] = search
         files, n_offset, total_results = await get_search_results(chat_id, search, offset=offset, filter=True)
         if not files:
-            await query.answer("🚫 ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ 🚫", show_alert=1)
+            await query.answer("✘  ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ✘ ", show_alert=1)
             return
         temp.GETALL[key] = files
         settings = await get_settings(message.chat.id)
@@ -661,7 +661,7 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -1336,7 +1336,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[ 
                 InlineKeyboardButton('• ꜱᴇɴᴅ  ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ •', url=OWNER_LNK),
             ],[
-                InlineKeyboardButton('🚫 ᴄʟᴏꜱᴇ 🚫', callback_data='close_data')
+                InlineKeyboardButton('✘ 𝗖𝗹𝗼𝘀𝗲 ✘', callback_data='close_data')
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.reply_photo(
