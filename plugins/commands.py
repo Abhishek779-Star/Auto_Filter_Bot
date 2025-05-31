@@ -1113,7 +1113,7 @@ async def reset_group_command(client, message):
     if chat_type not in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         return await message.reply_text("<b>ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ɢʀᴏᴜᴘ...</b>")
     btn = [[
-        InlineKeyboardButton('🚫 ᴄʟᴏsᴇ 🚫', callback_data='close_data')
+        InlineKeyboardButton('✘ 𝐂𝐋𝐎𝐒𝐄 ✘', callback_data='close_data')
     ]]
     reply_markup = InlineKeyboardMarkup(btn)
     await save_group_settings(grp_id, 'shortner', SHORTENER_WEBSITE)
