@@ -498,7 +498,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -511,7 +511,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -661,7 +661,7 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("🔊ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -1336,7 +1336,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[ 
                 InlineKeyboardButton('• ꜱᴇɴᴅ  ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ •', url=OWNER_LNK),
             ],[
-                InlineKeyboardButton('✘ 𝗖𝗹𝗼𝘀𝗲 ✘', callback_data='close_data')
+                InlineKeyboardButton('✘ 𝐂𝐋𝐎𝐒𝐄 ✘', callback_data='close_data')
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.reply_photo(
@@ -1866,7 +1866,7 @@ async def advantage_spell_chok(client, message):
         for movie in movies
     ]
     buttons.append(
-        [InlineKeyboardButton(text="🚫 ᴄʟᴏsᴇ 🚫", callback_data='close_data')]
+        [InlineKeyboardButton(text="✘ 𝐂𝐋𝐎𝐒𝐄 ✘", callback_data='close_data')]
     )
     d = await message.reply_text(text=script.CUDNT_FND.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), reply_to_message_id=message.id)
     await asyncio.sleep(60)
