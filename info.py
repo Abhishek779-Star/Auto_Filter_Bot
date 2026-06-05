@@ -67,14 +67,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtoverifyanylink")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Howtoverifyanylink")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
+SHORTENER_API = environ.get("SHORTENER_API", "c6be39f9ee99048543b5c20e012f2336a5be3dfe")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "papajiurl.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "c6be39f9ee99048543b5c20e012f2336a5be3dfe")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "papajiurl.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "7cc1e69ba5d053e9124dcd34bf56f94b66cb6f23")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "c6be39f9ee99048543b5c20e012f2336a5be3dfe")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "papajiurl.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "86400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
